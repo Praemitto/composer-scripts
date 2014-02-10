@@ -1,0 +1,22 @@
+{
+	"name": "Praemitto/composer-scripts",
+	"description": "Event scripts for use with Composer.",
+	"keywords": [ "event", "script", "composer" ],
+	"homepage": "https://github.com/Praemitto/composer-scripts",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Adam Moss",
+			"homepage": "http://www.praemitto.co.uk"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Praemitto\\Composer\\Scripts\\": ""
+		}
+	},
+	"require": {
+		"php": ">=5.3.0"
+	}
+}
